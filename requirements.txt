@@ -1,0 +1,6 @@
+# 本機驗證環境（訓練機實際版本未留記錄，以此為基準）
+ultralytics==8.3.143
+torch==2.7.0
+torchvision==0.22.0
+opencv-python==4.11.0.86
+numpy==2.2.3

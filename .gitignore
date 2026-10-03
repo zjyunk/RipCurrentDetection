@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────
+# 影像資料集：體積過大，放 Google Drive（連結見 README）
+# ─────────────────────────────────────────────
+images/
+labels/
+with_rips/
+without_rips/
+dataWaiao/
+frames/
+
+test data/
+0530fulong2/
+ANS_RIP/
+correct_label/
+Dallee/
+myself/
+
+# 10-fold 的 yaml 與 train/val 清單：僅本機實驗用，不公開
+10-fold/
+
+# 上游 YOLO-Rip-seg 作者的訓練記錄，非本專案產出
+training logs/
+
+# ─────────────────────────────────────────────
+# 大型產出物
+# ─────────────────────────────────────────────
+# 影片
+*.mp4
+*.MP4
+
+# 模型權重（走 GitHub Releases 或 Drive）
+*.pt
+Result/*/weights/
+
+# ─────────────────────────────────────────────
+# 環境與快取
+# ─────────────────────────────────────────────
+*.cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
